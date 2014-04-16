@@ -1,0 +1,48 @@
+<!-- MODAL ########################## -->
+<div class="modal-header">
+	<button class="bootbox-close-button close" type="button">×</button>
+	<h4 class="modal-title">What is your name?</h4>
+</div>
+<div class="modal-body">
+	<div class="bootbox-body">
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-default" type="button" data-bb-handler="cancel">Cancel</button>
+	<button class="btn btn-primary" type="button" data-bb-handler="confirm">OK</button>
+</div>
+<!-- MODAL FIN #################### -->
+
+<script>
+	var formulario = '';
+	$(formulario).validate({
+			errorElement: 'div',
+			errorClass: 'help-block',
+			focusInvalid: true,
+			rules: {
+				campo: {
+
+				}
+			},
+			messages: {
+				campo: {
+
+				}
+			},
+			invalidHandler: function (event, validator) { 
+				$('.alert-danger', $(formulario)).show();
+			},			
+			highlight: function (e) {
+				$(e).closest('.form-group').removeClass('has-info').addClass('has-error');
+			},
+			success: function (e) {
+				$(e).closest('.form-group').removeClass('has-error').addClass('has-info');
+				$(e).remove();
+			},
+			submitHandler: function (form) {
+				
+			},
+			invalidHandler: function (form) {
+			}
+		})
+</script>

@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^presupuesto-(.*)$ app/reportes/vistas/presupuesto.php?cedrif=$1 [L]
+RewriteRule ^examenes-(.*)$ app/reportes/vistas/examenes.php?cedrif=$1 [L]
+RewriteRule ^recipes-(.*)$ app/reportes/vistas/recipes.php?cedrif=$1 [L]
