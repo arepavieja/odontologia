@@ -504,8 +504,9 @@
 	},
 	"file_history":
 	[
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/diagnos/clases/mDiagnos.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/cfg/conexion.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/clases/mCorreo.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/diagnos/clases/mDiagnos.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/vistas/destinatarios.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/procesos/_enviar.destino.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/usuarios/clases/mUsuarios.php",
@@ -630,8 +631,7 @@
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/examen/vistas/admin.php",
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/menu.php",
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/contenido.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/usuarios/procesos/p.login.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/foto.update.php"
+		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/usuarios/procesos/p.login.php"
 	],
 	"find":
 	{
