@@ -13,7 +13,9 @@ class mDiagproc {
 		$this->msj = array();
 		if(isset($_POST)) {
 			foreach($_POST as $indice=>$valor) {
-				$this->$indice = strtoupper($valor);
+				if(!is_array($valor)) {
+					$this->$indice = strtoupper($valor);
+				}
 			}
 		}
 	} #construct

@@ -87,6 +87,12 @@ class Funciones {
 				.'</div>';
 		return $var;
 	}
+	function modalFooter2() {
+		$var = '<div class="modal-footer">'
+				.'<button class="btn btn-default cerrarmodal" data-dismiss="modal" type="button" data-bb-handler="cancel">Cancelar</button>'
+				.'</div>';
+		return $var;
+	}
 
 	function checked($val_1,$val_2) {
 		$rt = (!strcmp($val_1,$val_2)) ? 'checked' : null;

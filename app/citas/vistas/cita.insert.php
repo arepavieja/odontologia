@@ -1,9 +1,14 @@
 <?php 
 require '../../../cfg/base.php';
+$clientes_rows = $musuarios->getAll();
 ?>
 <?php echo $fun->modalHeader('Crear Nueva Cita') ?>
 <script>
 	$(function(){
+		$(".uno").chosen({
+			no_results_text: "No hay resultados",
+			max_selected_options: 1
+		});
 		$('#validarCedula').validate({
 			errorElement: 'div',
 			errorClass: 'help-inline',
@@ -63,8 +68,8 @@ require '../../../cfg/base.php';
 	})	
 </script>
 <div class="modal-body">
-	<div class="col-sm-10 col-md-offset-1">
-		<form action="" class="form-inline buscar-cedula" role="form" id="validarCedula">
+		<form action="" class="form-horizontal buscar-cedula col-sm-12" role="form" id="validarCedula">
+<!--
 			<div class="form-group">
 				<label class="col-sm-2"><strong>Cédula:</strong></label>
 				<div class="col-sm-2">
@@ -80,11 +85,37 @@ require '../../../cfg/base.php';
 					<button class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
 				</div>
 			</div>
+-->
+			<div class="form-group">
+				<label for="" class="control-label col-sm-2 bolder">Buscar</label>
+				<div class="col-sm-1">
+					<select name="nac" id="nac" class="">
+						<option value="V">V</option>
+						<option value="E">E</option>
+					</select>
+				</div>
+				<div class="col-sm-8">
+					<select id="cedrif" class="uno form-control col-sm-12" data-placeholder="Seleccione" multiple="" name="ced">
+						<option value=""></option>
+						<?php foreach($clientes_rows as $r) { ?>
+							<option value="<?php echo substr($r->pacien_cedrif,1) ?>"><?php echo $r->pacien_nro_histo.' - '.substr($r->pacien_cedrif,1).' - '.$r->pacien_nomraz ?></option>
+						<?php } ?>
+					</select>
+				</div>
+				<div class="col-sm-1">
+					<button class="btn btn-primary btn-sm"><i class="fa fa-search"></i></button>
+				</div>
+			</div>
+			<input type="hidden" id="cedrif2">
 		</form>	
 		<div id="registro-cita"></div>
-	</div>
 </div>
 <div class="clearfix"></div>
 <div class="modal-footer">
 	<button class="btn btn-default cerrarmodal" data-dismiss="modal" type="button" data-bb-handler="cancel">Cancelar</button>
 </div>
+<script>
+	$(function(){
+		$('.chosen-container-multi').attr('style','width:100%')
+	})
+</script>

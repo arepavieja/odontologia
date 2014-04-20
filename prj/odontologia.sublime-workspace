@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"modal",
+				"modalHeader  (function)"
+			],
+			[
+				"fn",
+				"fun  (variable)"
+			],
+			[
+				"pacie",
+				"pacien_email"
+			],
+			[
+				"pac",
+				"pacien_email"
+			],
+			[
 				"dia",
 				"diagplan  (variable)"
 			],
@@ -30,10 +46,6 @@
 			[
 				"fech",
 				"fechaValidar"
-			],
-			[
-				"pacie",
-				"pacien_cedrif"
 			],
 			[
 				"all",
@@ -492,16 +504,42 @@
 	},
 	"file_history":
 	[
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/diagnos/clases/mDiagnos.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/clases/mCorreo.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/vistas/destinatarios.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/procesos/_enviar.destino.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/usuarios/clases/mUsuarios.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/reportes/clases/mReportes.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/recipes/clases/mRecipes.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/radiogra/clases/mRadiogra.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/proced/clases/mProced.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/clases/mOrtodon.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/clases/mOdonto.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/historia/clases/mHistoria.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/general/clases/mGeneral.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/examen/clases/mExamen.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/diagproc/clases/mDiagproc.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/citas/clases/mCitas.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/modulo/clases/m.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/vistas/rango.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/historia/vistas/admin.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/vistas/admin.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/vistas/listaEnvios.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/cfg/funciones.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/js/funciones.js",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/cargando.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/correo/procesos/_enviar.rango.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/cfg/base.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/menu.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/contenido.php",
+		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/citas/vistas/cita.insert.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/historia/vistas/ortodoncia.consulta.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/historia/vistas/consulta.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/general/procesos/p.plantratamiento.insert.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/general/vistas/plan.tratamiento.php",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/cfg/funciones.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/plantrat/vistas/plan.tratamiento.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/plantrat/clases/cPlantrat.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/plantrat/clases/mPlantrat.php",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/clases/mOrtodon.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/vistas/examen.intraoral.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/general/vistas/examen.intraoral.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/vistas/cefalometria.php",
@@ -512,9 +550,7 @@
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/procesos/p.legan.insert.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/vistas/steiner.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/ortodon/vistas/motivo.consulta.php",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/js/funciones.js",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/historia/vistas/ortodoncia.admin.php",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/clases/mOdonto.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/vistas/evolucion.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/vistas/evolucion.fotos.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/vistas/evolucionVer.php",
@@ -540,11 +576,9 @@
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/vistas/diente.inicial.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/usuarios/procesos/p.login.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/procesos/p.insert.diagnostico.php",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/usuarios/clases/mUsuarios.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/login.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/css/principal.css",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/css/ace.css",
-		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/diagnos/clases/mDiagnos.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/index.php",
 		"/opt/lampp/htdocs/sistemas/ojos/odontologia/app/odonto/vistas/evolucion.finalizar.php",
 		"/opt/lampp/htdocs/sistemas/ojos/glossdent/cfg/conexion.php",
@@ -597,29 +631,7 @@
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/menu.php",
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/contenido.php",
 		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/usuarios/procesos/p.login.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/foto.update.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/ortodoncia.historia.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/procesos/p.foto.update.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/foto.lista.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/radiogra/vistas/rayos.lista.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/radiogra/procesos/p.foto.update.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/radiogra/vistas/admin.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/consulta.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/ortodoncia.consulta.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/clases/cOdonto.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/procesos/p.procedimiento.finalizar.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/evolucion.finalizar.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/evolucion.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/procedimiento.insert.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/evolucion.lista.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/diagnos/vistas/diagnos.lista.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/evolucion.update.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/evolucion.insert.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/procesos/p.evolucion.update.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/procesos/evolucion.lista.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/procesos/p.evolucion.imagen.insert.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/procesos/p.fotos.delete.php",
-		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/odonto/vistas/fotos.lista.php"
+		"/opt/lampp/htdocs/sistemas/empresas/odontologia/app/historia/vistas/foto.update.php"
 	],
 	"find":
 	{
@@ -638,6 +650,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bien",
 			" bolder well well-s",
 			"$l",
 			"st",
@@ -764,8 +777,7 @@
 			"mreportes",
 			"orga",
 			"organos",
-			"des",
-			"organos"
+			"des"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -844,13 +856,13 @@
 		"cols":
 		[
 			0.0,
-			0.49375,
+			0.484314903846,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.517053206003,
 			1.0
 		]
 	},
@@ -866,12 +878,24 @@
 		"selected_items":
 		[
 			[
-				"mgener",
-				"app/general/clases/mGeneral.php"
+				"mcoo",
+				"app/correo/clases/mCorreo.php"
+			],
+			[
+				"base",
+				"cfg/base.php"
 			],
 			[
 				"funcion",
 				"cfg/funciones.php"
+			],
+			[
+				"cita",
+				"app/citas/vistas/cita.insert.php"
+			],
+			[
+				"mgener",
+				"app/general/clases/mGeneral.php"
 			],
 			[
 				"mort",
@@ -948,10 +972,6 @@
 			[
 				"mhis",
 				"app/historia/clases/mHistoria.php"
-			],
-			[
-				"base",
-				"cfg/base.php"
 			],
 			[
 				"mhist",
@@ -1232,6 +1252,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 240.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true
 }

@@ -13,7 +13,9 @@ class mDiagnos {
 		$this->msj = array();
 		if(isset($_POST)) {
 			foreach($_POST as $indice=>$valor) {
-				$this->$indice = strtoupper($valor);
+				if(!is_array($valor)) {
+					$this->$indice = strtoupper($valor);
+				}
 			}
 		}
 	} #construct
@@ -28,7 +30,7 @@ class mDiagnos {
 	}
 
 	function diagnosSelect() {
-		$sql = "SELECT * FROM tbl_diagno ORDER BY diagno_descrip ASC";
+		$sql = "SELECT * FROM tbl_diagno WHERE diagno_eliminar=1 ORDER BY diagno_descrip ASC";
 		$res = $this->con->prepare($sql);
 		$res->execute();
 		return $res->fetchAll(PDO::FETCH_OBJ);

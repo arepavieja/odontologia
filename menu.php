@@ -69,13 +69,13 @@ $mod = $musuarios->modulosUsuario();
 							<ul class="user-menu pull-right dropdown-menu dropdown-purple dropdown-caret dropdown-close">
 								<li>
 									<a href="#">
-										<i class="icon-user"></i>
+										<i class="fa fa-user fa-lg"></i> 
 										Perfil
 									</a>
 								</li>
 								<li>
 									<a href="?var2=correo/vistas/admin">
-										<i class="icon-user"></i>
+										<i class="fa fa-envelope"></i> 
 										Correo
 									</a>
 								</li>
