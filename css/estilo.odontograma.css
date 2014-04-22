@@ -97,51 +97,109 @@
 	padding: 0px;
 	position: relative;
 }
-.V {
+.cuadrante1 .P,
+.cuadrante2 .P {
 	width:34px;
 	height: 11.5px;
 	border: 1px solid #000;
 	border-radius: 10px 10px 0px 0px;
 }
-.M {
-	width: 11.2px;
-	height: 15px;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
-	float: left;
-}
-.O {
-	width: 11.5px;
-	height: 15px;
-	box-shadow: 0px 0px 2px -1px #000;
-	float: left;
-}
-.D {
-	width: 11.2px;
-	height: 15px;
-	border-right: 1px solid #000;
-	border-left: 1px solid #000;
-	float: left;
-}
-.P {
+.cuadrante1 .V,
+.cuadrante2 .V {
 	width:34px;
 	height: 11.5px;
 	border: 1px solid #000;
 	clear: both;
 	border-radius: 0px 0px 10px 10px;
 }
+.cuadrante3 .L, 
+.cuadrante4 .L {
+	width:34px;
+	height: 11.5px;
+	border: 1px solid #000;
+	clear: both;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.cuadrante3 .V, 
+.cuadrante4 .V {
+	width:34px;
+	height: 11.5px;
+	border: 1px solid #000;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.cuadrante1 .D,
+.cuadrante3 .D {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}
+
+.cuadrante1 .M,
+.cuadrante3 .M {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}
+
+.cuadrante2 .D,
+.cuadrante4 .D {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}
+
+.cuadrante2 .M,
+.cuadrante4 .M {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}
+
+/*.M {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}*/
+.O {
+	width: 11.5px;
+	height: 15px;
+	box-shadow: 0px 0px 2px -1px #000;
+	float: left;
+}
+/*.D {
+	width: 11.2px;
+	height: 15px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	float: left;
+}*/
+
 .V:hover, 
 .M:hover,
 .O:hover,
 .D:hover,
-.P:hover {
+.P:hover,
+.L:hover {
 	box-shadow: 0px 0px 4px #000;
 } 
 .V:active, 
 .M:active,
 .O:active,
 .D:active,
-.P:active {
+.P:active 
+.L:active {
 	box-shadow: inset 0px 0px 3px #000;
 } 
 .diente .cono {

@@ -46,11 +46,11 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 					<div class="diag"></div>
 					<img src="img/cono.png" class="cono" alt="">
 					<div class="muela c-<?php echo $x; ?>">
-						<div class="V T"></div>
-						<div class="M T"></div>
-						<div class="O T"></div>
-						<div class="D T"></div>
 						<div class="P T"></div>
+						<div class="D T"></div>
+						<div class="O T"></div>
+						<div class="M T"></div>
+						<div class="V T"></div>
 						<div class="diag-muela"></div>
 					</div>
 				</div>
@@ -61,11 +61,11 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 					<div class="diag"></div>
 					<img src="img/cono.png" class="cono" alt="">
 					<div class="muela c-<?php echo $x; ?>">
-						<div class="V T"></div>
-						<div class="M T"></div>
-						<div class="O T"></div>
-						<div class="D T"></div>
 						<div class="P T"></div>
+						<div class="D T"></div>
+						<div class="O T"></div>
+						<div class="M T"></div>
+						<div class="V T"></div>
 						<div class="diag-muela"></div>
 					</div>
 				</div>
@@ -101,11 +101,11 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 					<div class="diag"></div>
 					<img src="img/cono.png" class="cono" alt="">
 					<div class="muela c-<?php echo $x; ?>">
-						<div class="V T"></div>
+						<div class="P T"></div>
 						<div class="M T"></div>
 						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>
+						<div class="V T"></div>
 						<div class="diag-muela"></div>
 					</div>
 				</div>
@@ -116,11 +116,11 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 					<div class="diag"></div>
 					<img src="img/cono.png" class="cono" alt="">
 					<div class="muela c-<?php echo $x; ?>">
-						<div class="V T"></div>
+						<div class="P T"></div>
 						<div class="M T"></div>
 						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>		
+						<div class="V T"></div>		
 						<div class="diag-muela"></div>			
 					</div>
 				</div>
@@ -143,10 +143,10 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 				<div class="diente right c-<?php echo $x; ?>">
 					<div class="muela c-<?php echo $x; ?>">
 						<div class="V T"></div>
-						<div class="M T"></div>
-						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>	
+						<div class="O T"></div>
+						<div class="M T"></div>
+						<div class="L T"></div>	
 						<div class="diag-muela"></div>				
 					</div>
 					<img src="img/cono2.png" class="cono" alt="">
@@ -158,10 +158,10 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 				<div class="diente right c-<?php echo $x; ?>">
 					<div class="muela c-<?php echo $x; ?>">
 						<div class="V T"></div>
-						<div class="M T"></div>
-						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>
+						<div class="O T"></div>
+						<div class="M T"></div>
+						<div class="L T"></div>
 						<div class="diag-muela"></div>
 					</div>
 					<img src="img/cono2.png" class="cono" alt="">
@@ -202,7 +202,7 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 						<div class="M T"></div>
 						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>		
+						<div class="L T"></div>		
 						<div class="diag-muela"></div>				
 					</div>
 					<img src="img/cono2.png" class="cono" alt="">
@@ -217,7 +217,7 @@ $odtgrm = json_encode($modonto->diagnosticosMedico($cedrif));
 						<div class="M T"></div>
 						<div class="O T"></div>
 						<div class="D T"></div>
-						<div class="P T"></div>
+						<div class="L T"></div>
 						<div class="diag-muela"></div>
 					</div>
 					<img src="img/cono2.png" class="cono" alt="">

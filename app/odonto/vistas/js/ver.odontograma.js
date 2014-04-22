@@ -1,15 +1,121 @@
+function clasePosicion(valor, lugar) {
+	if(valor>10 && valor<19) {
+		if(lugar=='V') {
+			rt = '.P'
+		} else if (lugar=='M') {
+			rt = '.D'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.M'
+		} else {
+			rt = '.V'
+		}
+	} else if (valor>20 && valor<29) {
+		if(lugar=='V') {
+			rt = '.P'
+		} else if (lugar=='M') {
+			rt = '.M'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.D'
+		} else {
+			rt = '.V'
+		}
+	} else if (valor>30 && valor<39) {
+		if(lugar=='V') {
+			rt = '.V'
+		} else if (lugar=='M') {
+			rt = '.M'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.D'
+		} else {
+			rt = '.L'
+		}
+	} else if (valor>40 && valor<49) {
+		if(lugar=='V') {
+			rt = '.V'
+		} else if (lugar=='M') {
+			rt = '.D'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.M'
+		} else {
+			rt = '.L'
+		}
+	} else if (valor>50 && valor<56) {
+		if(lugar=='V') {
+			rt = '.P'
+		} else if (lugar=='M') {
+			rt = '.D'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.M'
+		} else {
+			rt = '.V'
+		}
+	} else if (valor>60 && valor<66) {
+		if(lugar=='V') {
+			rt = '.P'
+		} else if (lugar=='M') {
+			rt = '.M'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.D'
+		} else {
+			rt = '.V'
+		}
+	} else if (valor>70 && valor<76) {
+		if(lugar=='V') {
+			rt = '.V'
+		} else if (lugar=='M') {
+			rt = '.M'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.D'
+		} else {
+			rt = '.L'
+		}
+	} else {
+		if(lugar=='V') {
+			rt = '.V'
+		} else if (lugar=='M') {
+			rt = '.D'
+		} else if (lugar=='O') {
+			rt = '.O'
+		} else if (lugar=='D') {
+			rt = '.M'
+		} else {
+			rt = '.L'
+		}
+	}
+	return rt;
+}
+
 $(function(){
 	/**
 	 * Click en la clase .numeros
 	 * @return {[type]} [description]
 	 */
 	$('.numeros').on('click',function(){
+		if($('#otrolugar').is(':checked')) {
+    	nrotipo = 1;
+    } else {
+      nrotipo = 0;
+    }
 		var numero      = $(this).text().trim();
 		var clase       = '.T';
 		var diagnostico = $('#diagnostico-value').val();
 		var fin         = numero;
 		var paciente    = $('#cedrif-paciente').val();
-		var tipo 				= $('#otrolugar').val();
+		var tipo 				= nrotipo;
 		var datos       = 'numero='+numero+'&clase='+clase+'&diagnostico='+diagnostico+'&fin='+fin+'&paciente='+paciente+'&tipo='+tipo;
 		if(diagnostico!="") {
 			if($('#multiples-diagnos').is(':checked')) {
@@ -30,6 +136,11 @@ $(function(){
 	})
 
 	$('.T').on('click',function(){
+		if($('#otrolugar').is(':checked')) {
+    	nrotipo = 1;
+    } else {
+      nrotipo = 0;
+    }
 		var numerosplit  = $(this).parent().attr('class').split(' ');
 		var numerosplit2 = numerosplit[1].split('-');
 		var numero       = numerosplit2[1];
@@ -38,7 +149,7 @@ $(function(){
 		var clase        = '.'+clasesplit[0];
 		var fin          = numero;
 		var paciente     = $('#cedrif-paciente').val();
-		var tipo 				= $('#otrolugar').val();
+		var tipo 				= nrotipo;
 		var datos        = 'numero='+numero+'&clase='+clase+'&diagnostico='+diagnostico+'&fin='+fin+'&paciente='+paciente+'&tipo='+tipo;
 		if(diagnostico!="") {
 			if($('#multiples-diagnos').is(':checked')) {
@@ -58,6 +169,7 @@ $(function(){
 		};
 	})
 })
+
 
 function limites(valor) {
 	if(valor>10 && valor<19) {

@@ -1,7 +1,7 @@
 <?php 
 require '../../../cfg/base.php';
 $reg = $mcorreo->enviarDestino();
-print_r($reg);
+//print_r($reg);
 echo '<h3 class="alert alert-success"><i class="fa fa-check fa-lg green"></i> Enviados Correctamente</h3>';
 if (is_array($reg['bien']) and count($reg['bien'])>0) {
 	echo '<ul class="list-inline">';
